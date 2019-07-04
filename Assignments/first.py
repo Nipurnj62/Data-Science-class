@@ -3,7 +3,7 @@
 #The numbers obtained should be printed in a comma-separated sequence on a single line
 
 
-outputlist=[i for i in range(2000,3200) if (i%7==0 and (i%5)!=0)]
+outputlist=[i for i in range(2000,3201) if (i%7==0 and (i%5)!=0)]
 
 print(outputlist,end=' ')
 
